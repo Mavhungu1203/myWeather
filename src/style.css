@@ -7,6 +7,7 @@ body{
     max-width: 600px;
     margin: 45px auto;
     padding: 30px;
+    border-radius: 16px;
    
 
 }
@@ -77,4 +78,11 @@ form:hover .fa{
 .city{
     display: flex;
     justify-content:end;
+}
+
+.emoji{
+    display: flex;
+    justify-content: start;
+    font-size: 67px;
+    
 }
