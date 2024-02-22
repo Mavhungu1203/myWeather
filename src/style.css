@@ -84,5 +84,25 @@ form:hover .fa{
     display: flex;
     justify-content: start;
     font-size: 67px;
+    line-height: 1.6em;
     
+}
+.temperature{
+    display: flex;
+    justify-content: end;
+}
+
+table,td{
+    border: 1px solid;
+      border-radius: 16px;
+      display: contents;
+      justify-content: center;
+}
+table{
+    border-collapse: collapse;
+    
+}
+td{
+    padding: 10px;
+  
 }
