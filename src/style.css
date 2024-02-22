@@ -71,5 +71,10 @@ form:hover .fa{
 
 .day-time{
     display: flex;
-    
+    justify-content:end;
+}
+
+.city{
+    display: flex;
+    justify-content:end;
 }
