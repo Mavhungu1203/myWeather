@@ -1,5 +1,6 @@
 body{
-  background: rgb(43,27,71);
+ background: rgb(20,27,33);
+background: radial-gradient(circle, rgba(20,27,33,1) 40%, rgba(27,37,59,1) 100%);
 }
 
 .weather-container{
@@ -90,19 +91,25 @@ form:hover .fa{
 .temperature{
     display: flex;
     justify-content: end;
+    
 }
 
 table,td{
-    border: 1px solid;
-      border-radius: 16px;
-      display: contents;
-      justify-content: center;
-}
-table{
-    border-collapse: collapse;
-    
+    margin-left: auto;
+    margin-right: auto;
 }
 td{
-    padding: 10px;
-  
+    padding: 15px;
+}
+
+.temp{
+     display: block;
+     top: -60px;
+     position: relative;
+}
+.temp-descr{
+     display: block;
+     top: -40px;
+     position: relative;
+     line-height: 24px;
 }
