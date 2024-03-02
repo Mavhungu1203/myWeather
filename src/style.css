@@ -79,15 +79,14 @@ form:hover .fa{
 .city{
     display: flex;
     justify-content:end;
+    position: relative;
+    left: -65px;
 }
 
-.emoji{
-    display: flex;
-    justify-content: start;
-    font-size: 67px;
-    line-height: 1.6em;
-    
-}
+ .emoji{
+   
+    font-size: 100px;
+} 
 .temperature{
     display: flex;
     justify-content: end;
@@ -106,10 +105,15 @@ td{
      display: block;
      top: -60px;
      position: relative;
+     font-size: 60px;
 }
 .temp-descr{
-     display: block;
-     top: -40px;
-     position: relative;
-     line-height: 24px;
+   position: relative;
+    left:30px;
+}
+weather-icon-desc{
+    display: flex;
+    justify-content: start;
+    font-size: 80px;
+   
 }
