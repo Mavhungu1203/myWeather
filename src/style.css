@@ -1,6 +1,7 @@
 body{
  background: rgb(20,27,33);
-background: radial-gradient(circle, rgba(20,27,33,1) 40%, rgba(27,37,59,1) 100%);
+ background: radial-gradient(circle, rgba(20,27,33,1) 40%, rgba(27,37,59,1) 100%);
+  font-family: "Roboto", sans-serif;
 }
 
 .weather-container{
@@ -74,6 +75,8 @@ form:hover .fa{
 .day-time{
     display: flex;
     justify-content:end;
+    left: -65px;
+    position: relative;
 }
 
 .city{
@@ -81,6 +84,7 @@ form:hover .fa{
     justify-content:end;
     position: relative;
     left: -65px;
+    font-size: 50px;
 }
 
  .emoji{
@@ -105,15 +109,25 @@ td{
      display: block;
      top: -60px;
      position: relative;
-     font-size: 60px;
+     font-size: 50px;
+     left: -65px;
 }
 .temp-descr{
    position: relative;
     left:30px;
 }
-weather-icon-desc{
+.weather-icon-desc{
     display: flex;
     justify-content: start;
     font-size: 80px;
    
+}
+.weather-app-unit{
+    margin-top: -57px;
+    font-size: 28px;
+    position: relative;
+    left: -65px;
+}
+.unit{
+     color: #8c52ff ;
 }
