@@ -11,6 +11,7 @@ body{
     padding: 30px;
     border-radius: 16px;
    
+   
 
 }
 
@@ -20,7 +21,7 @@ form{
     left: 50%;
     transform: translate(-50%,-50%);
     transition: all 1s;
-    width: 50px;
+    width: 300px;
     height: 50px;
     background: white;
     box-sizing: border-box;
@@ -33,15 +34,18 @@ input{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;;
+    width: calc(100% - 45px);
     height: 42.5px;
     line-height: 30px;
     outline: 0;
     border: 0;
-    display: none;
+    display: block;
     font-size: 1em;
     border-radius: 20px;
     padding: 0 20px;
+    cursor: pointer;
+
+
 }
 
 .fa{
@@ -57,8 +61,12 @@ input{
     text-align: center;
     font-size: 1.2em;
     transition: all 1s;
+    cursor: pointer;
 }
-form:hover{
+form:hover input{
+    display: block;
+}
+/* form:hover{
     width: 300px;
     cursor: pointer;
 }
@@ -70,13 +78,15 @@ form:hover input{
 form:hover .fa{
     background: #8c52ff;
     color: white;
-}
+} */
 
 .day-time{
     display: flex;
     justify-content:end;
     left: -65px;
     position: relative;
+    color: rgba(0, 0, 0, 0.6);
+
 }
 
 .city{
@@ -84,18 +94,16 @@ form:hover .fa{
     justify-content:end;
     position: relative;
     left: -65px;
-    font-size: 50px;
+    font-size: 45px;
 }
 
  .emoji{
-   
-    font-size: 100px;
-} 
-.temperature{
     display: flex;
     justify-content: end;
-    
-}
+    font-size: 110px;
+    left:-40px;
+    position: relative;
+} 
 
 table,td{
     margin-left: auto;
@@ -103,31 +111,60 @@ table,td{
 }
 td{
     padding: 15px;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .temp{
      display: block;
-     top: -60px;
+     top: -95px;
      position: relative;
      font-size: 50px;
-     left: -65px;
+     
 }
 .temp-descr{
    position: relative;
-    left:30px;
+   left:5px;
+   top: -20px;
+   font-size: 14px;
+   color: rgba(0, 0, 0, 0.6);
 }
+
 .weather-icon-desc{
     display: flex;
-    justify-content: start;
+    justify-content: end;
     font-size: 80px;
    
 }
 .weather-app-unit{
-    margin-top: -57px;
-    font-size: 28px;
+    font-size: 35px;
     position: relative;
-    left: -65px;
+    left: 55px;
+    margin-top: -150px;
+    
 }
 .unit{
      color: #8c52ff ;
+}
+ 
+footer{
+    border-top: 1px solid #f9f7fe;
+    text-align: center;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.current-descr{
+    display: flex;
+    justify-content:start;
+    position: relative;
+    font-size: 16px;
+    margin-top: -60px;
+}
+.now{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.footer-links{
+    color:  #8c52ff ;
 }
