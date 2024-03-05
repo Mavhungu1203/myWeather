@@ -12,7 +12,7 @@ background: linear-gradient(90deg, rgba(3,1,2,1) 0%, rgba(43,18,70,1) 100%, rgba
   border-radius: 16px;
 }
 
-form {
+/* form {
   position: relative;
   top: 50%;
   left: 50%;
@@ -60,7 +60,31 @@ input {
 }
 form:hover input {
   display: block;
+} */
+.search-form-input {
+  background-color: #f9f7fe;
+  border: none;
+  border-radius: 6px;
+  width: 50%;
+  font-size: 16px;
+  padding: 15px 20px;
 }
+
+.search-form-button {
+  background: #8c52ff;
+  padding: 15px 30px;
+  border: none;
+  font-size: 16px;
+  margin-left: 5px;
+  border-radius: 6px;
+  color: white;
+}
+
+.search-form{
+  padding-left: 40px ;
+  
+}
+
 /* form:hover{
     width: 300px;
     cursor: pointer;
@@ -96,9 +120,9 @@ form:hover .fa{
   display: flex;
   justify-content: end;
   font-size: 110px;
-  left: -40px;
+  left:-60px;
   position: relative;
-}
+ }
 
 table,
 td {
