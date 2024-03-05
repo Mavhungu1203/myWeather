@@ -137,7 +137,10 @@ td {
   margin-top: -150px;
   color: white;
 }
-.unit {
+.humidity {
+  color: #8c52ff;
+}
+.wind{
   color: #8c52ff;
 }
 
