@@ -4,7 +4,8 @@ body {
 }
 
 .weather-container {
-  background: rgb(39, 10, 53);
+ background: rgb(3,1,2);
+background: linear-gradient(90deg, rgba(3,1,2,1) 0%, rgba(43,18,70,1) 100%, rgba(15,10,64,1) 100%);
   max-width: 600px;
   margin: 45px auto;
   padding: 30px;
