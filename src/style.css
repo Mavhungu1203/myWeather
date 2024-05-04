@@ -215,4 +215,14 @@ footer {
 
 }
 
-.weather
+.weather-forecast-temperatures{
+  text-align: center;
+  color: #f65282;
+  margin-top: 10px;
+  display:flex;
+  justify-content: center;
+}
+
+.weather-forecast-temperature{
+  padding: 0 10px;
+}
